@@ -10,16 +10,7 @@ const Works = () => {
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem
-            id="punterversity"
-            title="Punterversity"
-            thumbnail="/images/works/punterversity.png"
-          >
-            A social network for punters with bet code converter.
-          </WorkGridItem>
-        </Section>
-        <Section>
+      <Section>
           <WorkGridItem
             id="waterserver"
             title="WaterServer"
@@ -29,6 +20,17 @@ const Works = () => {
             (WaterBoard).
           </WorkGridItem>
         </Section>
+
+        <Section>
+          <WorkGridItem
+            id="punterversity"
+            title="Punterversity"
+            thumbnail="/images/works/punterversity.png"
+          >
+            A social network for punters.
+          </WorkGridItem>
+        </Section>
+        
       </SimpleGrid>
     </Container>
   )

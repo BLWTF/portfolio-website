@@ -5,6 +5,8 @@ import {
   Heading,
   Image,
   Link,
+  List,
+  ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
@@ -12,6 +14,7 @@ import Section from '../components/section'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
+import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -81,7 +84,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Acquired a Computer Science and Informatics Bachelor&pos;s Degree in
+          Acquired a Computer Science and Informatics Bachelor&apos;s Degree in
           the Federal University Otuoke
         </BioSection>
         <BioSection>
@@ -89,7 +92,7 @@ const Page = () => {
           Developed and implemented{' '}
           <Link as={NextLink} href="/works/waterserver">
             Waterserver
-          </Link>
+          </Link>{' '}
           for the state water management agengies (WaterBoard) of Kaduna, Niger,
           Taraba and Abia States.
         </BioSection>
@@ -98,14 +101,58 @@ const Page = () => {
           Worked as a freelancer
         </BioSection>
       </Section>
-			<Section delay={0.3}>
-				<Heading as="h3" variant="section-title">
-					I Love
-				</Heading>
-				<Paragraph>
-					Music, Pixel Art, Movies.
-				</Paragraph>
-			</Section>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Skills
+        </Heading>
+        <BioSection>
+          <BioYear>Mobile</BioYear>
+          Flutter
+        </BioSection>
+        <BioSection>
+          <BioYear>Frontend</BioYear>
+          HTML, CSS, JSX, Animation (with Rive)
+        </BioSection>
+        <BioSection>
+          <BioYear>Backend</BioYear>
+          NodeJS, NextJS, PHP, Laravel, MySQL
+        </BioSection>
+      </Section>
+      <Section delay={0.4}>
+        <Heading as="h3" variant="section-title">
+          Hobbies
+        </Heading>
+        <Paragraph>Music, Pixel Art, Movies, Anime.</Paragraph>
+      </Section>
+      <Section delay={0.4}>
+        <Heading as="h3" variant="section-title">
+          Find Me
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/BLWTF" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                @BLWTF
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/blwtf" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @blwtf
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
+      </Section>
     </Container>
   )
 }

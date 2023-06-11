@@ -90,7 +90,7 @@ const Page = () => {
         <BioSection>
           <BioYear>2019 to 2021</BioYear>
           Developed and implemented{' '}
-          <Link as={NextLink} href="/works/waterserver">
+          <Link as={NextLink} href="#">
             Waterserver
           </Link>{' '}
           for the state water management agengies (WaterBoard) of Kaduna, Niger,

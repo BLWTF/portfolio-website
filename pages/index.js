@@ -62,7 +62,7 @@ const Page = () => {
         <Paragraph>
           Bolu is a freelance full stack engineer with a passion for problem
           solving and learning. Currently working on a product called{' '}
-          <Link as={NextLink} href="/works/punterversity">
+          <Link as={NextLink} href="#">
             Punterversity
           </Link>
         </Paragraph>

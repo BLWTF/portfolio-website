@@ -14,7 +14,7 @@ import Section from '../components/section'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -137,6 +137,17 @@ const Page = () => {
                 leftIcon={<IoLogoGithub />}
               >
                 @BLWTF
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/boluwatife-adegbemile-014361158" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                Bolu Adegbemile
               </Button>
             </Link>
           </ListItem>

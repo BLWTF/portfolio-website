@@ -1,5 +1,5 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import { WorkGridItem } from '../components/grid-item'
+import { GridItem } from '../components/grid-item'
 import Section from '../components/section'
 
 const Works = () => {
@@ -10,27 +10,16 @@ const Works = () => {
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section>
-          <WorkGridItem
-            id="waterserver"
-            title="WaterServer"
-            thumbnail="/images/works/waterserver.jpg"
-          >
-            A ERP Software suite for state water management agencies
-            (WaterBoard).
-          </WorkGridItem>
-        </Section>
-
         <Section>
-          <WorkGridItem
-            id="punterversity"
-            title="Punterversity"
-            thumbnail="/images/works/punterversity.png"
+          <GridItem
+            id="newsm"
+            title="Newsm.app"
+            thumbnail="/images/works/newsm.png"
+            href="https://newsm.app"
           >
-            A social network for punters.
-          </WorkGridItem>
+            A platform for news and events.
+          </GridItem>
         </Section>
-        
       </SimpleGrid>
     </Container>
   )

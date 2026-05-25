@@ -26,15 +26,15 @@ const Page = () => {
         mb={6}
         textAlign="center"
       >
-        Hello, I&apos;m a full-stack developer based in Abuja, Nigeria.
+        Hello, I&apos;m a fullstack engineer based in Lagos, Nigeria.
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Adegbemile Bolu
+            Boluwatife Adegbemile
           </Heading>
-          <p>Software Developer</p>
+          <p>Fullstack Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -60,11 +60,7 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Bolu is a freelance full stack engineer with a passion for problem
-          solving and learning. Currently working on a product called{' '}
-          <Link as={NextLink} href="#">
-            Punterversity
-          </Link>
+          Fullstack Engineer based in Lagos with a track record of leading technical delivery for global institutions: African Development Bank, USAID, at the intersection of real-time systems, geospatial data, and M&E infrastructure. I specialize in TypeScript-first architectures, event-driven backends, and data visualization at scale.
         </Paragraph>
         <Box align="center" my={4}>
           <Link as={NextLink} href="/works">
@@ -79,26 +75,16 @@ const Page = () => {
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1995</BioYear>
-          Born in Kaduna.
-        </BioSection>
-        <BioSection>
           <BioYear>2017</BioYear>
-          Acquired a Computer Science and Informatics Bachelor&apos;s Degree in
-          the Federal University Otuoke
+          Bachelor of Science in Computer Science, Federal University Otuoke.
         </BioSection>
         <BioSection>
-          <BioYear>2019 to 2021</BioYear>
-          Developed and implemented{' '}
-          <Link as={NextLink} href="#">
-            Waterserver
-          </Link>{' '}
-          for the state water management agengies (WaterBoard) of Kaduna, Niger,
-          Taraba and Abia States.
+          <BioYear>2020 to 2022</BioYear>
+          Freelance Software Engineer & Fullstack Engineer for USAID.
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
-          Worked as a freelancer
+          <BioYear>2024 to 2025</BioYear>
+          Lead Software Engineer at African Development Bank Group (Contract).
         </BioSection>
       </Section>
       <Section delay={0.3}>
@@ -106,23 +92,29 @@ const Page = () => {
           Skills
         </Heading>
         <BioSection>
-          <BioYear>Mobile</BioYear>
-          Flutter
+          <BioYear>Languages</BioYear>
+          TypeScript, JavaScript (ES6+), SQL, Python, HTML5, CSS3
         </BioSection>
         <BioSection>
           <BioYear>Frontend</BioYear>
-          HTML, CSS, JSX, Animation (with Rive)
+          React, Next.js, Chakra UI, ArkUI, Tailwind CSS, shadcn/ui
         </BioSection>
         <BioSection>
           <BioYear>Backend</BioYear>
-          NodeJS, NextJS, PHP, Laravel, MySQL
+          Node.js, Nest.js, TypeORM, MySQL, GraphQL, REST APIs, gRPC
         </BioSection>
-      </Section>
-      <Section delay={0.4}>
-        <Heading as="h3" variant="section-title">
-          Hobbies
-        </Heading>
-        <Paragraph>Music, Pixel Art, Movies, Anime.</Paragraph>
+        <BioSection>
+          <BioYear>State Mgmt</BioYear>
+          XState (Actors), Redux, Context API
+        </BioSection>
+        <BioSection>
+          <BioYear>DevOps</BioYear>
+          Docker, Fly.io, Lerna, CI/CD, WebSockets
+        </BioSection>
+        <BioSection>
+          <BioYear>Specialized</BioYear>
+          Mapbox GL JS, Geospatial Queries, AI/LLM Integration
+        </BioSection>
       </Section>
       <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
@@ -148,17 +140,6 @@ const Page = () => {
                 leftIcon={<IoLogoLinkedin />}
               >
                 Bolu Adegbemile
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/blwtf" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @blwtf
               </Button>
             </Link>
           </ListItem>

@@ -14,18 +14,18 @@
   "license": "ISC",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
-    "@chakra-ui/react": "^2.5.1",
+    "@chakra-ui/react": "^2.10.9",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@rive-app/react-canvas": "^3.0.53",
     "D": "^1.0.0",
     "eslint": "^8.36.0",
-    "eslint-config-next": "^13.2.4",
+    "eslint-config-next": "15.3.5",
     "framer-motion": "^10.3.2",
-    "next": "^13.2.4",
+    "next": "15.3.5",
     "prettier": "^2.8.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "react-icons": "^4.9.0"
   }
 }

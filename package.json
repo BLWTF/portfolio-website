@@ -12,6 +12,9 @@
   "keywords": [],
   "author": "Adegbemile Bolu",
   "license": "ISC",
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.10.9",

@@ -14,7 +14,7 @@ import Section from '../components/section'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
   return (
